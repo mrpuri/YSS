@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get Involved | Youth Singh Sabha</title>
+  <meta name="description" content="Become a member of Youth Singh Sabha, volunteer with a department, or start a unit in your pind or ward.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Gurmukhi:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero hero-small">
+      <div class="wrap">
+        <div class="crumbs"><a href="index.html">Home</a> / Get Involved</div>
+        <div class="gur-line">ਸਾਡੇ ਨਾਲ ਜੁੜੋ</div>
+        <h1>Join the Sabha</h1>
+        <p class="lead">Whether you have an hour a month or want to lead a unit, there is a place for you.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid g3">
+          <div class="card">
+            <div class="eyebrow">Membership</div>
+            <h3>Become a member</h3>
+            <p>For anyone aged 16–40 who agrees with our aims and constitution. Members vote at the AGM and can be elected to committees.</p>
+            <p style="color:var(--ink)"><b>Annual fee:</b> <span class="ph">[₹ 000]</span></p>
+          </div>
+          <div class="card">
+            <div class="eyebrow">Volunteer</div>
+            <h3>Give your time</h3>
+            <p>No membership needed. Pick a department and help at camps, drives and events near you — or remotely with design, IT or writing.</p>
+          </div>
+          <div class="card" id="unit">
+            <div class="eyebrow">Lead</div>
+            <h3>Start a unit in your pind</h3>
+            <p>Bring together 11 committed youth. We'll register your unit, train your office-bearers and help plan your first programme.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="wrap split" style="align-items:start">
+        <div>
+          <div class="eyebrow">How a unit starts <span class="gur">ਨਵੀਂ ਇਕਾਈ</span></div>
+          <h2>From 11 friends to a registered unit</h2>
+          <div class="steps" style="margin-top:28px">
+            <div class="step"><h4>Gather your team</h4><p>At least 11 young people from your pind or ward, with a proposed president and secretary.</p></div>
+            <div class="step"><h4>Apply</h4><p>Fill the form on this page and choose "Start a unit". Your district coordinator will call you.</p></div>
+            <div class="step"><h4>Meet &amp; register</h4><p>A first meeting with the district committee, membership forms and unit registration.</p></div>
+            <div class="step"><h4>Train &amp; launch</h4><p>Orientation on our values, departments and accounts — then your first programme.</p></div>
+          </div>
+        </div>
+
+        <form class="card form" id="join" data-demo style="scroll-margin-top:100px">
+          <h3>Join form <span class="gur" style="color:var(--kesri-deep);font-size:.9rem">ਮੈਂਬਰਸ਼ਿਪ ਫਾਰਮ</span></h3>
+          <label>I want to
+            <select name="type" required>
+              <option value="member">Become a member</option>
+              <option value="volunteer">Volunteer</option>
+              <option value="unit">Start a unit in my pind / ward</option>
+              <option value="donor">Register as a blood donor</option>
+            </select>
+          </label>
+          <div class="row">
+            <label>Full name<input name="name" required autocomplete="name"></label>
+            <label>Age<input name="age" type="number" min="14" max="80" required></label>
+          </div>
+          <div class="row">
+            <label>Mobile (WhatsApp)<input name="phone" type="tel" required autocomplete="tel"></label>
+            <label>Email<input name="email" type="email" autocomplete="email"></label>
+          </div>
+          <div class="row">
+            <label>Pind / Ward<input name="village" required></label>
+            <label>District
+              <select name="district" required>
+                <option value="">Select</option>
+                <option>Amritsar</option><option>Barnala</option><option>Bathinda</option><option>Faridkot</option>
+                <option>Fatehgarh Sahib</option><option>Fazilka</option><option>Ferozepur</option><option>Gurdaspur</option>
+                <option>Hoshiarpur</option><option>Jalandhar</option><option>Kapurthala</option><option>Ludhiana</option>
+                <option>Malerkotla</option><option>Mansa</option><option>Moga</option><option>Pathankot</option>
+                <option>Patiala</option><option>Rupnagar</option><option>Sahibzada Ajit Singh Nagar (Mohali)</option>
+                <option>Sangrur</option><option>Shaheed Bhagat Singh Nagar</option><option>Sri Muktsar Sahib</option>
+                <option>Tarn Taran</option><option>Outside Punjab / Abroad</option>
+              </select>
+            </label>
+          </div>
+          <label>Department of interest
+            <select name="dept" id="dept">
+              <option value="">Any / not sure</option>
+              <option value="dharam-parchar">Dharam Parchar</option>
+              <option value="sikhya">Sikhya · Education</option>
+              <option value="nasha-mukt">Nasha Mukt Punjab</option>
+              <option value="sehat">Sehat · Health</option>
+              <option value="sewa">Sewa &amp; Bhalai</option>
+              <option value="khed">Khed &amp; Gatka</option>
+              <option value="rozgar">Rozgar te Hunar</option>
+              <option value="vatavaran">Vatavaran</option>
+              <option value="kaur-wing">Kaur Wing</option>
+            </select>
+          </label>
+          <label>Anything you'd like to tell us<textarea name="note" rows="3"></textarea></label>
+          <label class="check"><input type="checkbox" required> I agree to the aims of Youth Singh Sabha and consent to being contacted.</label>
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <div class="form-success" role="status">ਧੰਨਵਾਦ! Thank you — your district coordinator will contact you soon.</div>
+          <p class="form-note">Under 18? Please ask a parent or guardian before joining.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/main.js"></script>
+  <script>
+    // Preselect department when arriving from a "Join this department" link
+    const d = new URLSearchParams(location.search).get("dept");
+    if (d) document.getElementById("dept").value = d;
+  </script>
+</body>
+</html>
